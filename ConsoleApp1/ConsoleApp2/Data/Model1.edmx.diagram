@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="60611aadeceb4e7f90a33d2ed11ab950" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.NetbeheerdersAddress" Width="1.5" PointX="0.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetbeheerdersCompany" Width="1.5" PointX="3" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetbeheerdersContactPerson" Width="1.5" PointX="3" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetbeheerdersPostBoxAddress" Width="1.5" PointX="0.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AansluitingsObject" Width="1.5" PointX="12.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AansluitingsObjectGebruikerType" Width="1.5" PointX="10.5" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AlgemeneVoorwaarden" Width="1.5" PointX="13.5" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Availability" Width="1.5" PointX="7.5" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Branding" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CoordinerendeOrganisatie" Width="1.5" PointX="11.25" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CustomerService" Width="1.5" PointX="3" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Dienst" Width="1.5" PointX="5.25" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Discipline" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Disclaimer" Width="1.5" PointX="10.5" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DocumentTemplate" Width="1.5" PointX="10.5" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DocumentTemplateParameters" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DocumentTemplateType" Width="1.5" PointX="8.25" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetBeheerder" Width="1.5" PointX="5.25" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetbeheerderCoordinerendeOrganisatie" Width="1.5" PointX="13.5" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetBeheerderServiceProvider" Width="1.5" PointX="8.25" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NetBeheerderServiceProviderNetBeheerderDiscipline" Width="1.5" PointX="13.5" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="9.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SubDienst" Width="1.5" PointX="7.5" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.VerzorgingsGebiedContractCode" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActionArgument" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActionCondition" Width="1.5" PointX="15" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActionConditionAnswerType" Width="1.5" PointX="20.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BTWCode" Width="1.5" PointX="9.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PrijsComponent" Width="1.5" PointX="12" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PrijsComponentAction" Width="1.5" PointX="17.25" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ProcesVariant" Width="1.5" PointX="12.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.QuestionAction" Width="1.5" PointX="17.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.QuestionInfo" Width="1.5" PointX="9.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AansluitingsObjectenProducten" Width="1.5" PointX="15" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AansluitingsObjectProcesVariant" Width="1.5" PointX="16.5" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DisciplinesAansluitingsObjecten" Width="1.5" PointX="18" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DisciplinesNetbeheerders" Width="1.5" PointX="16.5" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ProductProcesVariant" Width="1.5" PointX="15" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AnswerType" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Question" Width="1.5" PointX="9.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.QuestionRelation" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.IssuueSubdiensten" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KPN" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KPNSUbdienst" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_dbcore_NetbeheerdersCompany_dbcore_NetbeheerdersAddress_PrimaryAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbcore_NetbeheerdersCompany_dbcore_NetbeheerdersAddress_SecondaryAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbcore_NetbeheerdersAddress_PrimaryAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbcore_NetbeheerdersAddress_SecondaryAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbcore_NetbeheerdersAddress_PrimaryAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbcore_NetbeheerdersAddress_SecondaryAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbcore_NetbeheerdersCompany_dbcore_NetbeheerdersPostBoxAddress_PrimaryPostBoxAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbcore_NetbeheerdersCompany_dbcore_NetbeheerdersPostBoxAddress_SecondaryPostBoxAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbcore_NetbeheerdersCompany_CompanyID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbcore_NetbeheerdersCompany_CompanyID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_CoordinerendeOrganisatie_dbcore_NetbeheerdersContactPerson_ContactPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbcore_NetbeheerdersContactPerson_ContactPerson_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbcore_NetbeheerdersContactPerson_ContactPerson_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbcore_NetbeheerdersPostBoxAddress_PrimaryPostBoxAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbcore_NetbeheerdersPostBoxAddress_SecondaryPostBoxAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbcore_NetbeheerdersPostBoxAddress_PrimaryPostBoxAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbcore_NetbeheerdersPostBoxAddress_SecondaryPostBoxAddress_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_AansluitingsObjectGebruikerType_dbnetbeheerders_AansluitingsObject_AansluitingsObjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_AansluitingsObjectenProducten_dbnetbeheerders_AansluitingsObject_AansluitingsObjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_AansluitingsObjectProcesVariant_dbnetbeheerders_AansluitingsObject_AansluitingsObjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_DisciplinesAansluitingsObjecten_dbnetbeheerders_AansluitingsObject_AansluitingsObjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_AansluitingsObjectGebruikerType_dbnetbeheerders_Discipline_DisciplineID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_AansluitingsObjectGebruikerType_dbnetbeheerders_NetBeheerder_NetbeheerderID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_AlgemeneVoorwaarden_dbnetbeheerders_Discipline_DisciplineId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_AlgemeneVoorwaarden_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_Availability_dbnetbeheerders_NetBeheerder_NetBeheerderID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetbeheerderCoordinerendeOrganisatie_dbnetbeheerders_CoordinerendeOrganisatie_CoordinerendeOrganisatieId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerder_dbnetbeheerders_CustomerService_CustomerServiceID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProvider_dbnetbeheerders_CustomerService_CustomerServiceID" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_SubDienst_dbnetbeheerders_Dienst_DienstId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_Disclaimer_dbnetbeheerders_Discipline_DisciplineId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProviderNetBeheerderDiscipline_dbnetbeheerders_Discipline_DisciplineId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_SubDienst_dbnetbeheerders_Discipline_DisciplineId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_DisciplinesAansluitingsObjecten_dbnetbeheerders_Discipline_DisciplineId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_DisciplinesNetbeheerders_dbnetbeheerders_Discipline_DisciplineId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_Disclaimer_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_DocumentTemplate_dbnetbeheerders_DocumentTemplateType_DocumentTemplateTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_DocumentTemplate_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetbeheerderCoordinerendeOrganisatie_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProviderNetBeheerderDiscipline_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_SubDienst_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_AansluitingsObjectProcesVariant_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_DisciplinesNetbeheerders_dbnetbeheerders_NetBeheerder_NetBeheerderId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_NetBeheerderServiceProviderNetBeheerderDiscipline_dbnetbeheerders_NetBeheerderServiceProvider_NetBeheerderSer" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbnetbeheerders_Product_dbnetbeheerders_SubDienst_SubDienstId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponent_dbnetbeheerders_Product_ProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_AansluitingsObjectenProducten_dbnetbeheerders_Product_ProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_ProductProcesVariant_dbnetbeheerders_Product_ProductId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_ActionConditionAnswerType_dbprocessor_ActionCondition_ActionConditionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponentAction_dbprocessor_ActionCondition_ActionConditionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_QuestionAction_dbprocessor_ActionCondition_ActionConditionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_ActionConditionAnswerType_dbvragen_AnswerType_AnswerTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponent_dbprocessor_BTWCode_BTWCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponent_dbprocessor_ProcesVariant_ProcesVariantId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponent_dbprocessor_QuestionInfo_QuestionInfoId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponent_dbvragen_Question_QuestionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponentAction_dbprocessor_PrijsComponent_PrijsComponentId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_PrijsComponentAction_dbvragen_Question_QuestionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_QuestionAction_dbprocessor_ProcesVariant_ProcesVariantId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_AansluitingsObjectProcesVariant_dbprocessor_ProcesVariant_ProcesVariantId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbrelations_ProductProcesVariant_dbprocessor_ProcesVariant_ProcesVariantId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_QuestionAction_dbprocessor_QuestionInfo_QuestionInfoId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbprocessor_QuestionAction_dbvragen_Question_QuestionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_dbvragen_Question_dbvragen_AnswerType_AnswerTypeId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
