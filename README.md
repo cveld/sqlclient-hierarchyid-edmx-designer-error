@@ -1,0 +1,1 @@
+# sqlclient-hierarchyid-edmx-designer-error
